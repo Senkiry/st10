@@ -1,0 +1,379 @@
+#main_container
+    {
+        width: 100%;
+        border: none;
+        margin: 0 auto;
+        min-height: 500px;
+        height: auto; 
+        
+    }
+#header
+    {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        height: 100px;
+        background-color: rgb(186, 186, 186);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 70px;
+        padding: 20px 0px;
+    }
+
+#left_bar
+    {
+        width: 25%;
+        height: 200px;
+        float: left;
+        
+    }
+#main_content{
+    width: 75%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding-left: 30px; 
+    padding-top: 15px;
+    box-sizing: border-box;
+
+}
+.inner_box
+    {
+            width: calc(33.33% - 40px); 
+            margin: 10px;
+            float: left;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+            transition: box-shadow 0.3s ease; 
+            border-radius: 20px 20px 20px 20px;
+            overflow: hidden;
+            margin-right: 20px;
+            
+    }
+#footer
+    {
+        
+        clear:both;
+        width: 100%;
+        height: 400px;
+        background-color:  #6c757d;
+       padding: 20px 0px;
+
+    }
+.nav-item
+    {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+ 
+    }
+
+
+.dropdown 
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+.dropdown-item 
+    {
+        position: relative;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+.dropdown-item a 
+    {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+.sub-menu 
+    {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        z-index: 1;
+    }
+
+.dropdown-item:hover .sub-menu 
+    {
+        display: block;
+    }
+
+.sub-menu li 
+    {
+        display: block;
+    }
+
+.sub-menu li a 
+    {
+        padding: 8px 20px;
+    }
+
+.sub-menu li a:hover 
+    {
+        background-color: #ddd;
+    }
+.img-size
+    {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+.inner_box:hover 
+    {
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    }
+.list
+    {
+        list-style: none;
+        text-align: center;
+    }
+.text
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        padding-right: 30px;
+    }
+
+
+
+
+    
+
+.dropdown .sub-menu {
+    display: none;
+}
+
+
+.dropdown .dropdown-item:hover .sub-menu {
+    display: block;
+}
+
+
+.dropdown .dropdown-item {
+    position: relative;
+}
+
+.dropdown .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #a7a7a7;
+    padding: 5px 0;
+    border: 1px solid#a7a7a7;
+
+}
+
+.dropdown .sub-menu li {
+    list-style: none;
+}
+
+.dropdown .sub-menu a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.dropdown .sub-menu a:hover {
+    background-color: #a3ff33;
+}
+#main-footer
+{
+    width: 100%;
+    height: 400px;
+    background-color: #a7a7a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+    border-radius: 70px 70px 70px 70px;
+
+}
+#main-brand
+{   
+    width: 80%;
+   
+    height: 300px;
+    padding: 20px 0px;
+   
+    
+}
+.brand-text
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+    padding-bottom: 20px;
+    height: 60px;
+}
+.brand-t
+    {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+#main-logo
+{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding-top: 20px;
+   
+    
+}
+.brand-logo
+{
+    width: 90px;
+   
+    
+}
+.catagory
+{ 
+   
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    background-color: rgb(78, 100, 100);
+    border-radius: 10px 10px 10px 10px;
+    width: 170px;
+    
+}
+.catagory-text
+{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.footer-main
+{
+    width: 100%;
+
+    height:90%;
+    padding: 10px 0px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+.div-footer
+{
+    width: calc(33.33% - 40px); 
+    margin: 10px;
+    float: left;
+  
+    overflow: hidden;
+    margin-right: 20px;
+    height: 100%;
+    padding-left: 30px;
+    
+}
+.list li{
+    list-style-type: none;
+    padding: 0px!important;
+}
+.list {
+
+    padding: 0px!important;
+}
+.list a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.inner_box img:hover
+{
+    scale: 1.2;
+    transition: 0.5s ease all;
+}
+.footer-text{
+    padding-top: 20px;
+}
+.custom-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.custom-button:hover 
+{
+    background-color: #2980b9;
+}
+/* Styles for the form and input */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-with-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-with-button input[type="email"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-with-button button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-with-button button:hover {
+    background-color: #2980b9;
+  }
+.w{
+    width: 50%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.email{
+    padding-right: 20px;
+}
+  

@@ -1,0 +1,251 @@
+#main_container
+    {
+        width: 100%;
+        border: none;
+        margin: 0 auto;
+        min-height: 600px;
+        height: auto; 
+        
+    }
+#main_body
+    {
+    width: 100%;
+    height:800px;
+    background-color:#b2bec3;
+    float: left;
+   
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    }
+#main_content{
+    width: 80%;
+    height:700px;
+
+    box-sizing: border-box;
+
+}
+#header
+    {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        height: 100px;
+        background-color: rgb(186, 186, 186);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 70px;
+        padding: 20px 0px;
+    }
+    .nav-item
+    {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+ 
+    }
+    #footer
+    {
+        
+        clear:both;
+        width: 100%;
+        height: auto;
+        background-color:  #6c757d;
+       padding: 20px 0px;
+
+    }
+.footer-main
+{
+    width: 100%;
+
+    height:90%;
+    padding: 10px 0px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+.div-footer
+{
+    width: calc(33.33% - 40px); 
+    margin: 10px;
+    float: left;
+  
+    overflow: hidden;
+    margin-right: 20px;
+    height: 100%;
+    padding-left: 30px;
+    
+}
+.w{
+    width: 50%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+  .input-with-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-with-button input[type="email"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-with-button button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-with-button button:hover {
+    background-color: #2980b9;
+  }
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-with-button {
+    display: flex;
+    align-items: center;
+  }
+  .footer-text{
+    padding-top: 20px;
+}
+.inner_01{
+    width: 39%;
+    height: 100%;
+    float: left;
+    padding: 0px 10px;
+}
+.inner_02{
+    width: 56%;
+    height:100%;
+    background-color:#ffffff;
+    float: left;
+    padding: 0px 10px;
+    
+}
+
+.brand-logo
+{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+#main-logo
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    padding-top: 10px;
+}
+.logo{
+    width: 50px;
+}
+.p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 5px 0px;
+  text-align: justify;
+  line-height: 25px;
+}
+.b{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px 0px;
+
+ 
+}
+.E{
+  width: 80%;
+  color: gray;
+  float: left;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+.bo{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px 0px;
+  width: 20%;
+  float: left;
+}
+.A{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px 0px;
+  width: 10%;
+  float: left;
+}
+.btsize{
+  width: 40px;
+  padding: 10px 0px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  column-gap: 45px;
+}
+.btsize:hover{
+  background-color: #767777;
+}
+.btsize:focus{background-color: #878787;
+color: black;  
+}
+.btdiv{
+  width: 50%;
+}
+.main-bt{
+  width: 100%;
+  display: flex;
+  padding: 10px 30px;
+}
+.btb{
+  width:200px;
+  padding: 10px 0px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  column-gap: 60px;
+  margin: 0PX 10PX;
+  border-radius: 10px;
+}

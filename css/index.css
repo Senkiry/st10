@@ -1,104 +1,233 @@
-#header
-    {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        color: rgb(0, 0, 0);
-        width: 100%;
-        height: 100px;
-        background-color: rgb(186, 186, 186);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 70px;
-        padding: 20px 0px;
-    }
-.nav-item
-    {
-        text-decoration: none;
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
+body{
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: 0px; */
+}
+#header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100px;
+  background-color: rgb(186, 186, 186);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+  padding: 20px 0px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+
+}
+
+#footer {
+
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background-color: #6c757d;
+  padding: 20px 0px;
+
+}
+
+.footer-main {
+  width: 100%;
+
+  height: 90%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.div-footer {
+  width: calc(33.33% - 40px);
+  margin: 10px;
+  float: left;
+
+  overflow: hidden;
+  margin-right: 20px;
+  height: 100%;
+  padding-left: 30px;
+
+}
+
+.w {
+  width: 50%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.input-with-button {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-button input[type="email"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-with-button button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-with-button button:hover {
+  background-color: #2980b9;
+}
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.footer-text{
+  padding-top: 20px;
+}
+.first-container {
+  height: 500px;
+  background-color:rgb(240, 240, 240);
+  display: flex;
+  color: black;
+  align-items: center;
+}
+
+.first-container .description {
+  width: 55%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* height: 150px; */
+  /* text-align: center; */
+  text-align: center;
+  color: #353b48;
  
-    }
-    #footer
-    {
-        
-        clear:both;
-        width: 100%;
-        height: 400px;
-        background-color:  #6c757d;
-       padding: 20px 0px;
+  
+}
 
-    }
-.footer-main
-{
-    width: 100%;
+.first-container .image {
+  width: 45%;
+  height: 500px;
+}
 
-    height:90%;
-    padding: 10px 0px;
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
+.first-container .image img {
+  height: 500px;
+  width: 100%;
 }
-.div-footer
-{
-    width: calc(33.33% - 40px); 
-    margin: 10px;
-    float: left;
+.description > h3{
+  color: #2f3640;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
-    overflow: hidden;
-    margin-right: 20px;
-    height: 100%;
-    padding-left: 30px;
-    
 }
-.w{
-    width: 50%;
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: center;
-    justify-content: center;
-    color: white;
+.description > h1{
+  font-size: 50px;
 }
-  .input-with-button {
-    display: flex;
-    align-items: center;
-  }
+#Hol_body{
+  background-color: #535c68;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* img{
+  border-radius: 100%;
+} */
+.img > img{
+  /* display: block; */
+  float: left;
+  border-radius: 100%;
   
-  .input-with-button input[type="email"] {
-    flex: 1;
-    padding: 8px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .input-with-button button {
-    padding: 10px 15px;
-    background-color: #3498db;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .input-with-button button:hover {
-    background-color: #2980b9;
-  }
-  form {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  .footer-text{
-    padding-top: 20px;
+}
+.img{
+  float: left;
+  text-align: center;
+
+}
+#Hol_body .img > img{
+ padding: 10px;
+} 
+.img{
+  padding: 55px;
+}
+/* /card/ */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  /* margin: auto; */
+  text-align: center;
+  font-family: arial;
+ 
+  align-items: center;
+  padding: 65px;
+  border-radius: 15px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.button{
+  width: 180px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #34495e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font: bold;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 0px 20px;
 }
